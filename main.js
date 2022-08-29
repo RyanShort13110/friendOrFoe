@@ -5,5 +5,5 @@ If a name has exactly 4 letters in it, you can be sure that it has to be a frien
 Ex: Input = ["Ryan", "Kieran", "Jason", "Yous"], Output = ["Ryan", "Yous"] */
 
 function friend(friends){
-  return friends.filter(el => el.length === 4)
-}
+  return friends.filter(el => el.length === 4);
+};
